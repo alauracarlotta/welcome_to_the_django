@@ -19,8 +19,14 @@
         Toda vez que vermos algo com o dunder (ex.: __name__), significa que estamos acessando uma coisa interna do python
         da fronteira entre o código do usuário (dev) e os códigos internos do python
     
+    ⁴NOTE =>
+        Todo módulo também é um objeto. Ao fazer type(os), o python te dará o tipo, module. Quando o python importa o modulo, ele cacheia ele e sempre que formos usá-lo ele irá buscar no cachê áquilo que já referenciamos.
+    
+    ⁵NOTE => 
+        Use os.getcwd() para ver o caminho do path
+    
     TODOs:
-    ========>
+    =====>
     * todo Entender melhor sobre variáveis globais no python
     * todo O que é esse namespace  do python (zen do python)
 """
@@ -48,7 +54,7 @@
     }
 """
 
-import os
+import os # NOTE⁴ NOTE⁵
 
 
 def main(): # NOTE¹
