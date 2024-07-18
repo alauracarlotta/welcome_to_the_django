@@ -30,3 +30,5 @@ print('chama fb')
 fb()
 
 print('end', __name__) # NOTE¹
+
+# WARNING => esse arquivo não irá rodas, somente explicação
