@@ -19,12 +19,12 @@ print('end', __name__) # NOTE¹"""
 
 #progb.py
 print('begin', __name__)
-import proga # NOTE quando importado o proga.py no progb.py, o interpretador executa todo o proga
+# import proga # NOTE quando importado o proga.py no progb.py, o interpretador executa todo o proga
 
 print('Define fb')
 def fb():
     print('dentro fb')
-    proga.fa()
+    # proga.fa()
 
 print('chama fb')
 fb()
