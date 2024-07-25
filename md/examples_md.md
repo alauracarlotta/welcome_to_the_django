@@ -1,10 +1,13 @@
-# TÍTULO
-
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
 Heading level 1
@@ -15,7 +18,7 @@ Heading level 2
 
 ================================================>
 
-# TAGS
+## TAGS
 
 <p>parágrafo</p>
 
@@ -23,36 +26,35 @@ Heading level 2
 
 ================================================>
 
-# NEGRITO
+## NEGRITO
 
 **BOLD**
-__bold__
+**bold**
 
 ================================================>
 
-# ITÁLICO
+## ITÁLICO
 
 *ITALIC*
-_italic_
+*italic*
 
 ================================================>
 
 <h1 id='bloco-de-comentario-com-id'> Bloco de comentário com id</h1>
 
-# BLOCO DE COMENTÁRIO
+## BLOCO DE COMENTÁRIO
 
 > BLOCKQUOTE bloco de comentário
-
-> #### The quarterly results look great!
+> #### The quarterly results look great
 >
 > - Revenue was off the chart.
 > - Profits were higher than ever.
 >
->  *Everything* is going according to **plan**.
+> *Everything* is going according to **plan**.
 
 ================================================>
 
-# LISTAS
+## LISTAS
 
 1. ORDERED LIST 1
 2. ORDERED LIST 2
@@ -63,22 +65,23 @@ _italic_
 - UNORDERED LIST 3
 
 - UNORDERED LIST 1
-* UNORDERED LIST 2
-+ UNORDERED LIST 3
-    - UNORDERED LIST 1
-    * UNORDERED LIST 2
-+ UNORDERED LIST 3
 
+* UNORDERED LIST 2
+
++ UNORDERED LIST 3
+  - UNORDERED LIST 1
+  - UNORDERED LIST 2
+- UNORDERED LIST 3
 
 ================================================>
 
-# BLOCO DE CÓDIGO
+## BLOCO DE CÓDIGO
 
 `CODE`
 
 ================================================>
 
-# HORIZONTAL RULE
+## HORIZONTAL RULE
 
 ---
 ***
@@ -86,7 +89,7 @@ _italic_
 
 ================================================>
 
-# LINKS
+## LINKS
 
 [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 LINK COM TITÚLO
@@ -99,19 +102,9 @@ I love supporting the **[EFF](https://eff.org)**.
 This is the *[Markdown Guide](https://www.markdownguide.org)*.
 See the section on [`code`](#code).
 
-
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)
-[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
-[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'
-[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
-
-
 ================================================>
 
-# IMAGEM
+## IMAGEM
 
 ![descrição da imagem](url da imagem gerado pelo serviço de hospedagem ou GitHub)
 
@@ -123,16 +116,25 @@ See the section on [`code`](#code).
 
 ================================================>
 
-# Índice 
+## Índice
 
-* [TÍTULO](#TÍTULO)
-* [TAGS](#TAGS)
-* [NEGRITO](#NEGRITO)
-* [ITÁLICO](#ITÁLICO)
-* [BLOCO DE COMENTÁRIO COM ID](#bloco-de-comentario-com-id)
-* [BLOCO DE COMENTÁRIO](#BLOCO_DE_COMENTÁRIO) => NÃO VAI FUNCIONAR 
-* [LISTAS](#BLOCO_DE_CÓDIGO)
-* [HORIZONTAL RULE](#HORIZONTAL_RULE)
-* [LINKS](#LINKS)
-* [IMAGEM](#IMAGEM)
-* [ÍNDICE](#ÍNDICE)
+- [TÍTULO](##TÍTULO)
+- [TAGS](##tags)
+- [NEGRITO](##negrito)
+- [ITÁLICO](##ITÁLICO)
+- [BLOCO DE COMENTÁRIO COM ID](##bloco-de-comentario-com-id)
+- [BLOCO DE COMENTÁRIO](##BLOCO_DE_COMENTÁRIO) => NÃO VAI FUNCIONAR
+- [LISTAS](##BLOCO_DE_CÓDIGO)
+- [HORIZONTAL RULE](##HORIZONTAL_RULE)
+- [LINKS](##links)
+- [IMAGEM](##imagem)
+- [ÍNDICE](##ÍNDICE)
+- [Outros](#outros)
+
+================================================>
+
+## Outros
+
+|| <!-- empty table header -->
+|:--:| <!-- table header/body separator with center formatting -->
+| I'm centered! | <!-- cell gets column's alignment -->
