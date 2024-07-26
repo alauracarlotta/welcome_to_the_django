@@ -9,6 +9,9 @@ As 3 formas de declarar strings:
 
 No python, strings também são objetos!
 
+TODO
+todo => O que é algo unicode?
+
 No Python todas as strings são unicode* docs/dict.md (Não é uma sequencia de bytes como em C, por exemplo. É um objeto de alto nível que implementea o unicode e é preciso fazer o encoding dele pra bytes para transmitir na rede ou guardar em um arquivo, por ex.) -> padrão UTF-8
 
 EX:
