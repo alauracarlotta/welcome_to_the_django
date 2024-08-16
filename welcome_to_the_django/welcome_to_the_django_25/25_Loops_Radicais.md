@@ -44,37 +44,37 @@ a
 
 NOTE² =>
 
-In [7]: range(8)
-Out[7]: range(0, 8) => Retorna um range object
+In: range(8)
+Out: range(0, 8) => Retorna um range object
 
-In [8]: r = range(8)
+In: r = range(8)
 
-In [9]: r[0]
-Out[9]: 0
+In: r[0]
+Out: 0
 
-In [10]: r[1]
-Out[10]: 1
+In: r[1]
+Out: 1
 
-In [11]: r[5]
-Out[11]: 5
+In: r[5]
+Out: 5
 
-In [12]: r[8]
----------------------------------------------------------------------------
+In: r[8]
+`---------------------------------------------------------------------------
 IndexError                                Traceback (most recent call last)
 Cell In[12], line 1
 ----> 1 r[8]
 
-IndexError: range object index out of range
+IndexError: range object index out of range`
 
-In [13]: r[-1]
-Out[13]: 7
+In: r[-1]
+Out: 7
 
-In [14]: list(r) => __Passo o range para uma lista e assim verifico todos os números do range__
-Out[14]: [0, 1, 2, 3, 4, 5, 6, 7] => O range produz programaticamente, gera somente quando acessamos ele.
+In: list(r) => __Passo o range para uma lista e assim verifico todos os números do range__
+Out: [0, 1, 2, 3, 4, 5, 6, 7] => O range produz programaticamente, gera somente quando acessamos ele.
 
 Suponhamos que eu queira uma lista com 1.000.000 de numeros. Isso ocuparia muito espaço em memória, mas utilizando o range, eu ocuparia somente um espaço em memória, podendo acessá-lo quando eu quiser de qualquer forma.
 
-In [15]: range? => __documentação__
+In: range? => __documentação__
 Init signature: range(self, /, *args, **kwargs)
 Docstring:
 range(stop) -> range object
@@ -86,13 +86,13 @@ start defaults to 0, and stop is omitted!  range(4) produces 0, 1, 2, 3.
 These are exactly the valid indices for a list of 4 elements.
 When step is given, it specifies the increment (or decrement).
 Type:           type
-Subclasses:    
+Subclasses:
 
-In [16]: range(1, 20, 3)
-Out[16]: range(1, 20, 3) => Retorna o objeto, mas se colocarmos numa lista... 
+In: range(1, 20, 3)
+Out: range(1, 20, 3) => Retorna o objeto, mas se colocarmos numa lista... 
 
-In [17]: list(range(1, 20, 3))
-Out[17]: [1, 4, 7, 10, 13, 16, 19] => ... retorna a sequencia
+In: list(range(1, 20, 3))
+Out: [1, 4, 7, 10, 13, 16, 19] => ... retorna a sequencia
 
 Melhorando ainda, vemos:
 
@@ -106,7 +106,7 @@ u
 r
 a
 
-Enumerate retorna uma tupla com índice e caracter:
+__Enumerate retorna uma tupla com índice e caracter:__
 
 In: for letra in enumerate(nome):
         print(letra)
@@ -130,6 +130,56 @@ Out:
 4 a
 
 Se fizermos:
-In [21]: enumerate('Laura')
-Out[21]: <enumerate at 0x7e16220027f0>
+In: enumerate('Laura')
+Out: <enumerate at 0x7e16220027f0>
 Ele retorna um interador que é o objeto enumerate
+
+Todo iterador implementa o __next__
+
+In: e = enumerate('Laura')
+
+In: e
+Out: <enumerate at 0x7f28a695c180>
+
+In: next(e)
+Out: (0, 'L')
+
+In: next(e)
+Out: (1, 'a')
+
+In: next(e)
+Out: (2, 'u')
+
+In: next(e)
+Out: (3, 'r')
+
+In: next(e)
+Out: (4, 'a')
+
+In: next(e)
+`---------------------------------------------------------------------------
+StopIteration                             Traceback (most recent call last)
+Cell In[9], line 1
+----> 1 next(e)` => __Esse next é tratado pelo for no loop (for it)__
+
+In: for indice, letra in enumerate(nome):
+        if letra == 'a':
+            continue => __O 'continue' fará com que pulemos a condicional__
+        print(indice, letra)
+
+Out:
+0 L
+2 u
+3 r
+
+Caso eu queira interromper a execução, utilizo *'break'*:
+
+In: for indice, letra in enumerate(nome):
+        if letra == 'r':
+            break
+        print(indice, letra)
+
+Out:
+0 L
+1 a
+2 u
