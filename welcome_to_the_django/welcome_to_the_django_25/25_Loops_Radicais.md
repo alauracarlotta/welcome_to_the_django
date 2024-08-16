@@ -89,7 +89,7 @@ Type:           type
 Subclasses:
 
 In: range(1, 20, 3)
-Out: range(1, 20, 3) => Retorna o objeto, mas se colocarmos numa lista... 
+Out: range(1, 20, 3) => Retorna o objeto, mas se colocarmos numa lista...
 
 In: list(range(1, 20, 3))
 Out: [1, 4, 7, 10, 13, 16, 19] => ... retorna a sequencia
