@@ -124,9 +124,9 @@ Out:
 ['Laura', 'SP'] -46.63 -23.54
 
 >>> Esse formato funcionar em qualquer parte do código:
-In: def f(t):
+In: `def f(t):
         *_, latitude, longitude = t
-        print(latitude, longitude,_)
+        print(latitude, longitude,_)`
 
 In: if __name__ == '__main__':
         f(row)
