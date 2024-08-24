@@ -92,7 +92,7 @@ In: def f(t):
 In: if __name__ == '__main__':
         f(row)
 Out:
-Laura -46.63 -23.54 *=> Aqui o print do _ fica como latitude pois o 2º _ sobrepõe o 1º.*
+Laura -46.63 -23.54 __=> Aqui o print do _ fica como latitude pois o 2º _ sobrepõe o 1º.__
 
 >>> Contudo, podemos usar o '*' para dizer - "todos os outros elementos que estiver entre o 1º e o último":
 In: def f(t):
@@ -105,7 +105,7 @@ Out:
 Laura -46.63 ['SP', -23.54]
 
 In: def f(t):
-        `nome, *meio, longitude = t` *=> Podemos nomear o asterisco ao invés de usar o underscore*
+        `nome, *meio, longitude = t` __=> Podemos nomear o asterisco ao invés de usar o underscore__
         print(nome, longitude, meio)
 
 In: if __name__ == '__main__':
