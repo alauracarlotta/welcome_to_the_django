@@ -110,5 +110,6 @@ TypeError: f() missing 2 required keyword-only arguments: 'x' and 'y'
 In [46]: f('a', 'b', 'c', 'd', 'e', f = 'f', w = 'w', x=1, y=0)
 a b c 1 0 ('d', 'e') {'f': 'f', 'w': 'w'}
 
+WIP
 TODO:
 => Parei em 7:16 min de vídeo.
