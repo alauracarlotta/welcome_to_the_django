@@ -1,5 +1,7 @@
 # DONUTS
 
+TODO:
+
 * ✅ bifurcação na execução do código através de condicionais
     => Sim, coloquei os condicionais 'IF' e 'Else';
 
@@ -51,6 +53,6 @@ Out:
     The value of PI is approximately 3.141592653589793.
 
 ✅ TODO: explicar if __name__ == '__main__'
-        # =>Esse teste só será executado se esse arquivo for executado
+        # =>Esse teste só será executado se esse arquivo for executado (dentro no namespace __main__)
 
 ✅ TODO: renomear os parametros da função test
