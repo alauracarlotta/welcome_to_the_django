@@ -9,7 +9,7 @@ Exemplo: donuts(5) retorna 'Number of donuts: 5'
 e donuts(23) retorna 'Number of donuts: many'
 """
 
-# Resolução 1:
+# Solution 1:
 """ 
 def donuts(count):
     if count >= 10:
@@ -18,7 +18,7 @@ def donuts(count):
         return f'Number of donuts: {count}' 
 """
 
-# Resolução 2:
+# Solution 2:
 """ 
 def is_positive_integer(value):
     return value > 0
@@ -36,14 +36,15 @@ def donuts(count):
     return message 
 """
 
-# Resolução 3:
+# Solution 3:
 """ 
 def donuts(count):
     return f'Number of donuts: {count}' if count > 0 and count < 10 else 'Number of donuts: many' 
 """
 
 
-# Resolução da minha preferência:
+# Solution 4 - My preference: 
+# (Melhor leitura e com apenas um return)
 def donuts(count):
     if count >= 10:
         message = 'Number of donuts: many'
@@ -78,7 +79,7 @@ if __name__ == '__main__':
     test(donuts, 9, 'Number of donuts: 9')
     test(donuts, 10, 'Number of donuts: many')
     test(donuts, 99, 'Number of donuts: many')
-    # test(donuts, 'l', 'Por favor, digite um valor válido!')
+    # test(donuts, 'l', 'Por favor, digite um valor válido!') # Para a solução 2
     # breakpoint()
 
 # -> breakpoint()
