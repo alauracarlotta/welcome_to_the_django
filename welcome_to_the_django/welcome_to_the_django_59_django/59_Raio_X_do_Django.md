@@ -155,4 +155,4 @@ manage.py runserver => (Inicializa um servidos de desenvolvimento)
         
         Tudo o que você usar muitas vezes, é tranformado num middleware pra ter menos código no seu projeto. Essa é uma forma de horizontalizar as funcionalidades do sistema, porque todas as rquisições acabaram passando por aquilo ali.
 
-WIP 13:51 vídeo
+=> WIP 13:51 vídeo
