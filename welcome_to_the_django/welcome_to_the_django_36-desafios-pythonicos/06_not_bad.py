@@ -39,8 +39,27 @@ def test(function, input, expected):
 
 if __name__ == '__main__':
     # Testes que verificam o resultado do seu código em alguns cenários.
-    test(not_bad, 'This movie is not so bad!', 'This movie is good!')
-    test(not_bad, 'This movie is not so bad, baby!', 'This movie is good, baby!')
-    test(not_bad, 'This dinner is not that bad!', 'This dinner is good!')
-    test(not_bad, 'This tea is not hot', 'This tea is not hot')
-    test(not_bad, "It's bad yet not", "It's bad yet not")
+    test(not_bad, 
+        'This movie is not so bad!',
+        'This movie is good!'
+    )
+
+    test(not_bad,
+        'This movie is not so bad, baby!', 
+        'This movie is good, baby!'
+    )
+    
+    test(not_bad,
+        'This dinner is not that bad!',
+        'This dinner is good!'
+    )
+    
+    test(not_bad,
+        'This tea is not hot',
+        'This tea is not hot'
+    )
+    
+    test(not_bad,
+        "It's bad yet not",
+        "It's bad yet not"
+    )
