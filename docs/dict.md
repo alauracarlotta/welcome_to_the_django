@@ -14,3 +14,11 @@ Namespace é um conceito fundamental na linguagem de programação Python. Ele s
 
 [Vide pdf file 'Namespace_O_que_e_como_usar_no_Python'](/docs/Namespace_O_que_e_como_usar_no_Python.pdf)
 [Vide site](https://awari.com.br/namespace-o-que-e-e-como-usar-no-python/)
+
+## PEP 8 ((Python Enhancement Proposals) Aula 59)
+
+=> O PEP 8 é um guia de estilo que estabelece diretrizes para a escrita de código Python de forma consistente e legível. Ele foi criado por Guido van Rossum, o criador da linguagem Python, e é amplamente adotado pela comunidade de desenvolvedores Python.
+
+## DUMP DE DADOS (Aula 59)
+
+=> O processo de dump de dados envolve a extração e cópia de informações de um sistema para outro. Geralmente, é utilizado um software específico para realizar essa tarefa, que pode ser programado para executar o dump de forma automática ou ser acionado manualmente pelo usuário.
