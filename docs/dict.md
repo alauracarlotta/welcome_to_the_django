@@ -40,3 +40,11 @@ Objeto python que pode ser executado. Oue seja, uma função é um callable, por
 O primeiro parâmetro, callable, pode ser qualquer objeto chamável do Python que possa ser chamado sem parâmetros; cada chamada deve retornar o próximo item na iteração. Quando callable retorna um valor igual a sentinel, a iteração será encerrada.
 
 [Callable](https://docs.python.org/pt-br/3.14/c-api/call.html)
+
+## URL (Uniform Resource Locator) (Aula 60)
+
+## DNS - Domain Name Serfvice (Aula 60)
+
+## IP (Aula 60)
+
+## TRANSMISSION CONTROL PROTOCOL (Aula 60)
