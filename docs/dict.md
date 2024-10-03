@@ -22,3 +22,21 @@ Namespace é um conceito fundamental na linguagem de programação Python. Ele s
 ## DUMP DE DADOS (Aula 59)
 
 => O processo de dump de dados envolve a extração e cópia de informações de um sistema para outro. Geralmente, é utilizado um software específico para realizar essa tarefa, que pode ser programado para executar o dump de forma automática ou ser acionado manualmente pelo usuário.
+
+## PIPELINE (Aula 59)
+
+=> Pipelines são uma abordagem eficiente e poderosa para o processamento de dados em Python. Eles permitem a criação de fluxos de trabalho bem estruturados, nos quais os dados são processados em etapas sequenciais.
+
+## Expressão Regular ou Expressões Regulares (Aula 59)
+
+=> As expressões regulares são compiladas em objetos padrão, que têm métodos para várias operações, tais como a procura por padrões de correspondência ou realizar substituições de strings.
+
+[Python: Expressões Regulares](http://docs.python.org/library/re.html#re-syntax)
+
+## CALLABLE (Aula 59)
+
+Objeto python que pode ser executado. Oue seja, uma função é um callable, por   que uma função em python é um objeto. Podemos ter uma classe com o método __call__ que ele passará a se comportar como um callable também.
+
+O primeiro parâmetro, callable, pode ser qualquer objeto chamável do Python que possa ser chamado sem parâmetros; cada chamada deve retornar o próximo item na iteração. Quando callable retorna um valor igual a sentinel, a iteração será encerrada.
+
+[Callable](https://docs.python.org/pt-br/3.14/c-api/call.html)
