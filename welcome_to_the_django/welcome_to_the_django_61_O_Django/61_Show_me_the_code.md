@@ -12,7 +12,7 @@ In: python3 -m env .<nome_da_maquina_virtual>
 
 In: ls -a (Verifica todos os arquivos, incluindo os ocultos)
 Out:
-    .  ..  61.md  env
+    .  ..  61.md  en../welcome_to_the_django_61_O_Django/61_Show_me_the_code.mdv
 
 In: ls env
 Out:
@@ -232,7 +232,11 @@ Como primeiro parâmetro declaramos request, o espaço para receber essa instaci
 
 ## RESUME
 
+* Criamos uma Virtual Env
+* Instalamos o django
 * Criamos um projeto django, chamado 'dir61'
+* Subimos o banco de dados
+* Manejamos o arquivo 'manage.py' para que o manage consiga ser acessado de qualquer lugar
 * Criamos uma app 'core'
 * Instalamos a app core no settings
 * Configuramos uma rota para a raiz do site
