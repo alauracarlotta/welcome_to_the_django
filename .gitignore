@@ -1,6 +1,13 @@
+# Dir
 **/__pycache__
 /venv
+**/env
+/.venv
+/.env
 /.idea
+
+# Files
+.env
 .todo
 .ipynb_checkpoints
 **.mp4
