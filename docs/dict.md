@@ -48,3 +48,5 @@ O primeiro parâmetro, callable, pode ser qualquer objeto chamável do Python qu
 ## IP (Aula 60)
 
 ## TRANSMISSION CONTROL PROTOCOL (Aula 60)
+
+## VIRTUAL ENV (Aula 61)
