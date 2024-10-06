@@ -2,13 +2,13 @@
 **/__pycache__
 /venv
 **/env
-/.venv
+**/.venv
 /.env
 /.idea
 
 # Files
 **db.sqlite3
 .env
-.todo
+**.todo
 .ipynb_checkpoints
 **.mp4
