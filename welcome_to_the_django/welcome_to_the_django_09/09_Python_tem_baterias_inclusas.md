@@ -1,6 +1,6 @@
 # AULA 9
 
-INFO => doc python (O que ele quer s=dizer é que de forma built-in no python já existem centenas de coisas para utilizar!)
+INFO => doc python (O que ele quer dizer é que de forma built-in no python já existem centenas de coisas para utilizar!)
 
 Mais de 230 módulos inclusos (built-in no python) e ainda tem o PyPI (leia paipe AI rs),
 
