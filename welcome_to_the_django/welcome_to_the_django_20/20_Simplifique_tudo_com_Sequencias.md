@@ -13,7 +13,8 @@ tamanho da string => len(variavel)
 
 In: nome = 'Henrique'
 
-Out:  0  1  2  3  4  5  6  7
+Out:
+      0  1  2  3  4  5  6  7
       H  e  n  r  i  q  u  e
      -8 -7 -6 -5 -4 -3 -2 -1
 
@@ -24,16 +25,20 @@ string[start stop step]
 In: nome = 'Henrique'
 
 In: len(nome)
-Out: 8
+Out:
+     8
 
 In: nome[2]
-Out: 'n'
+Out:
+     'n'
 
 In: nome[1]
-Out: 'e'
+Out:
+     'e'
 
 In: nome[8]
-Out: `---------------------------------------------------------------------------
+Out:
+     `---------------------------------------------------------------------------
 IndexError                                Traceback (most recent call last)
 Cell In[5], line 1
 ----> 1 nome[8]
@@ -41,31 +46,40 @@ Cell In[5], line 1
 IndexError: string index out of range`
 
 In: nome[len(nome) - 1]
-Out: 'e'
+Out:
+     'e'
 
 In: nome[-1]
-Out: 'e'
+Out:
+     'e'
 
 In: nome[::-1]
-Out: 'euqirneH'
+Out:
+     'euqirneH'
 
 In: nome[1:-1]
-Out: 'enriqu'
+Out:
+     'enriqu'
 
 In: nome[1:]
-Out: 'enrique'
+Out:
+     'enrique'
 
 In: nome[1:]
-Out: 'enrique'
+Out:
+     'enrique'
 
 In: nome[:2]
-Out: 'He'
+Out:
+     'He'
 
 In: nome[::2]
-Out: 'Hniu'
+Out:
+     'Hniu'
 
 In: len
-Out: <function len(obj, /)>
+Out:
+     <function len(obj, /)>
 
 ### POR DEBAIXO DOS PANOS
 
@@ -103,32 +117,39 @@ TypeError: object of type 'float' has no len()`
 ## PARA VERIFICARMOS QUE ISSO REALMENTE É UM PROTOCOLO
 
 In: nome[0] => (Açúcar sintático, traduz o acesso ao método do protocolo implementado)
-Out: 'H'
+Out:
+     'H'
 
 é a mesma coisa que:
 
 In: nome.__getitem__(0)
-Out: 'H'
+Out:
+     'H'
 
 Assim como:
 
 In: nome[1:-1:2]
-Out: 'erq'
+Out:
+     'erq'
 
 é a mesma coisa que:
 In: index = slice(1, -1, 2)
 
 In: type(index) => index é um slice...
-Out: slice
+Out:
+     slice
 
 In: nome[index]
-Out: 'erq'
+Out:
+     'erq'
 
 In: index. => ...  e tem alguns atributos:
-Out: index.indeces  index.start  index.stop  index.step
+Out:
+     index.indeces  index.start  index.stop  index.step
 
 In: index.indeces?
-Out: `
+Out:
+     `
 Docstring:
 S.indices(len) -> (start, stop, stride)
 
@@ -139,13 +160,16 @@ handling of normal slices.
 Type:      builtin_function_or_method` => Essa função normaliza o slice
 
 In: index
-Out: slice(1, -1, 2)
+Out:
+     slice(1, -1, 2)
 
 In: index.indices(len(nome))
-Out: (1, 7, 2) => normaliza o slice em função do número da sequencia
+Out:
+     (1, 7, 2) => normaliza o slice em função do número da sequencia
 
 Por debaixo dos panos, seria o seguinte:
 In: nome.__getitem__(slice(1, -1, 2))
-Out: 'erq'
+Out:
+     'erq'
 
 Todas essas notações funcionam com qualquer objeto que tenha o protocolo de sequencia.
