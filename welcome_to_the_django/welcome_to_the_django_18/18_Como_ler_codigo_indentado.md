@@ -8,7 +8,7 @@ NOTE¹ => Projeto ABC: O que mais atrapalha os codificadores
 
 ---
 
-NOTE² => : É o que delimita um bloco de código, em seguida vem a identação composta por 4 espaçoes (indicação da PEP 0008) [PEP 0008](https://peps.python.org/pep-0008/), sempre vai importar a relação de hierarquia com a linha anterior.
+NOTE² => : É o que delimita um bloco de código, em seguida vem a identação composta por 4 espaços (indicação da PEP 0008) [PEP 0008](https://peps.python.org/pep-0008/), sempre vai importar a relação de hierarquia com a linha anterior.
 
 ---
 
