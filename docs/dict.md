@@ -1,6 +1,14 @@
 # Dicionário Python
 
-## ENTRY POINT (aula 15)
+## Condutor STDIN (redirecionamento do linux) (Aula 14)
+
+=> A Entrada Padrão (stdin) é a entrada de um fluxo de texto. Como exemplos temos o teclado, o mouse, um disquete, etc. Todos eles alimentam o computador com informações. Pode ser representado pelo número 0.
+
+A Saída Padrão (stdout) é a saída de um fluxo de texto em condições normais. Como exemplos temos o monitor, a impressora, o disquete, um arquivo, etc. Todos eles recebem informações do computador. Pode ser representado pelo número 1.
+
+A Saída de Erro (stderr) é a saída de um fluxo de texto em condições de erro ou insucesso em um determinado processamento. A saída de erro poderá ser direcionada para o monitor ou para um arquivo de LOG. Pode ser representado pelo número 2.
+
+## ENTRY POINT (Aula 15)
 
 => O 'ENTRY POINT' OU 'ponto de entrada', é um termo utilizado na área de  programação para se referir ao local onde um programa começa a ser executado. É o ponto de partida para a execução de um  software, onde o código é inicializado e as instruções são executadas. O ponto de entrada é fundamental para o funcionamento de qualquer programa, pois é a partir dele que todas as ações e processos são iniciados.
 
