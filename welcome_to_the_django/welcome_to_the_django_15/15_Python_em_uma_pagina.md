@@ -31,7 +31,7 @@ Se você disse 'é a função main()', ERROU
 
 ⁵NOTE => Use os.getcwd() para ver o caminho do path
 
-TODOs:
+TODO:
 =====>
 >> todo Entender melhor sobre variáveis globais no python \
 >> todo O que é esse namespace  do python (zen do python)
