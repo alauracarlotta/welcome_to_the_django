@@ -34,7 +34,7 @@ Se você disse 'é a função main()', ERROU
 TODO:
 =====>
 >> todo Entender melhor sobre variáveis globais no python \
->> todo O que é esse namespace  do python (zen do python)
+>> todo O que é esse namespace do python (zen do python)
 
 ---
 
