@@ -19,7 +19,7 @@ TODO:
 José saramago - Livro: Ensaio sobre a cegueira / Fernando Meirelles - Filme: Blindness. (Sincronia) ==
 Guido com Tim Petters
 
->>> import this
+In: import this
 
 ## The Zen of Python by Tim Peters
 
