@@ -8,6 +8,10 @@ Exemplo: [1, 2, 2, 3]
 Irá retornar: [1, 2, 3]
 """
 
+# WIP
+# TODO:
+    # Corrigir exercicio
+
 def remove_adjacent(nums):
     # +++ SUA SOLUÇÃO +++
     if len(nums) <= 1:

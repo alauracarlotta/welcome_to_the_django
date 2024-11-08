@@ -51,6 +51,10 @@ contam como a mesma palavra.
 e conferindo cada etapa do seu progresso.
 """
 
+# WIP
+# TODO:
+    # Executar exercício
+
 import sys
 
 

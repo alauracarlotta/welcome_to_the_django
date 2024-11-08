@@ -39,6 +39,10 @@ Nota: o módulo padrão do python 'random' conta com o random.choice(list),
 método que escolhe um elemento aleatório de uma lista não vazia.
 """
 
+# WIP
+# TODO:
+    # Executar exercício
+
 import random
 import sys
 

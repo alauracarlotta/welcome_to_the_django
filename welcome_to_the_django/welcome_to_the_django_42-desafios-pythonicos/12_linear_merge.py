@@ -40,6 +40,10 @@ for i in listaIntercalada:
     import heapq
     return list(heapq.merge(*lista)) """
 
+# WIP
+# TODO:
+    # Corrigir exercicio
+
 def linear_merge(lista1, lista2):
     import heapq
 
