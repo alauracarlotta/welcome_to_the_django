@@ -1,6 +1,7 @@
 # AULA 14
 
-INFO => entendendo o interpretador e formas de adicionar stin e obter o stout de forma mais dinâmica ou com visual mais interativo.
+INFO => (ipython ou jupyter notebook)
+entendendo o interpretador e formas de adicionar stin e obter o stout de forma mais dinâmica ou com visual mais interativo.
 
 - Linguagem:
   - Conj. de regras e gramáticas;
