@@ -60,3 +60,9 @@ O primeiro parâmetro, callable, pode ser qualquer objeto chamável do Python qu
 ## VIRTUAL ENV (Aula 61)
 
 ## CDN (Aula 64)
+
+## TWELVE-FACTOR (Aula 65)
+
+12 Fatores escritos pelos devs do HEROKU para conseguir colocar o seu app na nuvem.
+
+## TRACEBACK (Aula 67)
