@@ -8,7 +8,7 @@ Ou seja, provavelmente a biblioteca que você precisar no python é só procurar
 
 ## DOC Python
 
-TODO
+TODO:
 // todo ler a doc
 
 ## Doug Hellman
