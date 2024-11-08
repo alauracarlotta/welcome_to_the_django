@@ -1,6 +1,6 @@
 # Aula 65
 
-INFO => Resumão até aqui
+INFO => Forma de pensar no Python no negócio
 
 [mapa](/assets/images/mapa_da_jornada.png)
 
