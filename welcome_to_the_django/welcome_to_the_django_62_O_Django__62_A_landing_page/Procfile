@@ -1,0 +1,1 @@
+web: gunicorn dir62.wsgi --log--file -
