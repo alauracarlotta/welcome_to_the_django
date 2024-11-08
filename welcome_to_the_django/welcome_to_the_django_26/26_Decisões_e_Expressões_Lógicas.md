@@ -1,6 +1,6 @@
 # Aula 26
 
-INFO => Expresões regulares
+INFO => Expresões Lógicas
 
 nome = 'Laura'
 
@@ -8,11 +8,11 @@ In: for cont in nome:
         print(cont)
 
 Out:
-L
-a
-u
-r
-a
+    L
+    a
+    u
+    r
+    a
 
 In: for cont in nome:
         if cont == 'a' or cont == 'u':
@@ -20,14 +20,14 @@ In: for cont in nome:
         print(cont)
 
 Out:
-L
-A
-a
-U
-u
-r
-A
-a
+    L
+    A
+    a
+    U
+    u
+    r
+    A
+    a
 
 In: for cont in nome:
         if cont == 'a' or cont == 'u':
@@ -36,11 +36,11 @@ In: for cont in nome:
         print(cont)
 
 Out:
-L
-A
-U
-r
-A
+    L
+    A
+    U
+    r
+    A
 
 In: for cont in nome:
         if cont == 'a' or cont == 'u':
@@ -49,11 +49,11 @@ In: for cont in nome:
             print(cont)
 
 Out:
-L
-A
-U
-r
-A
+    L
+    A
+    U
+    r
+    A
 
 In: for cont in nome:
         if cont in ('a', 'u'):
@@ -62,11 +62,11 @@ In: for cont in nome:
         print(cont)
 
 Out:
-L
-A
-U
-r
-A
+    L
+    A
+    U
+    r
+    A
 
 In: for cont in nome:
         if cont in 'au':
@@ -75,11 +75,11 @@ In: for cont in nome:
         print(cont)
 
 Out:
-L
-A
-U
-r
-A
+    L
+    A
+    U
+    r
+    A
 
 In: for cont in nome:
         if cont in 'aeiou':
@@ -90,11 +90,11 @@ In: for cont in nome:
             print(cont)
 
 Out:
-L
-A
-U
-@
-A
+    L
+    A
+    U
+    @
+    A
 
 ## Verificando
 
@@ -106,56 +106,72 @@ A
 true e false são singletons do python (só existe uma instancia deles na linguagem), no enteanto todo objeto em python tem uma representação lógica
 
 In: bool(None)
-Out: False
+Out:
+    False
 
 In: bool(False)
-Out: False
+Out:
+    False
 
 In: bool(0)
-Out: False
+Out:
+    False
 
 In: bool('')
-Out: False
+Out:
+    False
 
 In: bool(())
-Out: False
+Out:
+    False
 
 In: bool([])
-Out: False
+Out:
+    False
 
 In: bool({})
-Out: False
+Out:
+    False
 
 >>> curto cirquito => Ele avalia sempre o caminho menor sob a devida avaliação
 
 In: bool({})
-Out: False
+Out:
+    False
 
 In: bool(True)
-Out: True
+Out:
+    True
 
 In: bool(['abc'])
-Out: True
+Out:
+    True
 
 In: True and 'abc'
-Out: 'abc'
+Out:
+    'abc'
 
 In: True or 'abc'
-Out: True
+Out:
+    True
 
 In: 'abc' or True
-Out: 'abc'
+Out:
+    'abc'
 
 In: 'abc' and True
-Out: True
+Out:
+    True
 
 In: [] and True
-Out: [] => __Para que o and seja 'True' ele precisa que as duas expressões sejam True, quando ele verifica a lista vazia que é falsa ele nem avalia o segundo elemento e retornando assim a lista vazia []__
+Out:
+    [] => __Para que o and seja 'True' ele precisa que as duas expressões sejam True, quando ele verifica a lista vazia que é falsa ele nem avalia o segundo elemento e retornando assim a lista vazia []__
 
 >>> O avaliador sempre retorna o ultimo elemento avaliado
 
 In: [] and True
-Out: []
+Out:
+    []
 
 In: 1 and indefinido
 `---------------------------------------------------------------------------
@@ -166,4 +182,5 @@ Cell In[27], line 1
 NameError: name 'indefinido' is not defined`
 
 In: 1 or indefinido
-Out: 1
+Out:
+    1
