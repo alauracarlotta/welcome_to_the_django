@@ -118,6 +118,8 @@ O terreno é seu!
     * Strings que não são bytes
     * Funções são objetos
 
+TODO:
+WIP
 >>>> Falta daqui para baixo
 
 * Açúcar sintático adoça a vida
