@@ -14,6 +14,8 @@ dna de liberdade
 
  NOTE TIM PETERS - 1 dos 1ºs colaboradores do Python, autor do Zen do Python
 
+TODO:
+  LER: ENSAIO SOBRE A CEGUEIRA E INTERESTELAR
 José saramago - Livro: Ensaio sobre a cegueira / Fernando Meirelles - Filme: Blindness. (Sincronia) ==
 Guido com Tim Petters
 
