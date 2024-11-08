@@ -1,6 +1,7 @@
 # AULA 17
 
 INFO => Fim explicação de como funciona o import e o entry point do arquivo python.
+(A diferença de ter uma afirmativa com o `if __name__ == '__main__':` e não ter!)
 
 ---
 
