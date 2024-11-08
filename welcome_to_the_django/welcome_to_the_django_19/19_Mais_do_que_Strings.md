@@ -60,11 +60,14 @@ Ao invés de concatenar com o simbolo de adição, ex:
 `'Laura' + ' ' + 'Carlota'`, gerando assim uma 4ª string, utilize o .join(). Ex: `' '.join(['Laura', 'Carlota])`
 
 In:' '.join(['Laura', 'Carlota'])
-Out: 'Laura Carlota'
+Out:
+    'Laura Carlota'
 
 In: '\n'.join(['Laura', 'Carlota'])
-Out: 'Laura\nCarlota'
+Out:
+    'Laura\nCarlota'
 
 In: print('\n'.join(['Laura', 'Carlota']))
-Out: Laura
-     Carlota
+Out:
+    Laura
+    Carlota
